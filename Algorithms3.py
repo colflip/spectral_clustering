@@ -99,8 +99,16 @@ def NSCByNg(data, k):
     D = getDegreeMatrix(W)
     L = getLaplacianMatrix(D, W)
     eigvec = getEigen(L, D, k)
+
+    # tij = uij / (∑ku2ik)    1 / 2
+    rows = eigvec.shape[0]
+    columns = eigvec.shape[1]
+    T = np.zeros((rows, columns))
+    for i in range(rows):
+        for j in range(columns):
+            T[i][j] = eigvec[i][j] / np.sqrt(np.sum(eigvec[i] ** 2))
     clf = KMeans(n_clusters=k)
-    s = clf.fit(eigvec)
+    s = clf.fit(T)
     label = s.labels_
     return label
 
