@@ -6,7 +6,7 @@
 # @Software: PyCharm
 
 # ---------------------------------------------
-# # Algorithms3：Normalized spectral clustering according toShi and Malik(2000)
+# # Algorithms3：Normalized spectral clustering according toNg et al.(2002)
 # Lsym:=D−1/2LD−1/2=I−D−1/2WD−1/2
 # Lrw:=D−1L=I−D−1W
 # ---------------------------------------------
@@ -29,7 +29,7 @@ def getDistanceMatrix(data):
 
 
 def getAdjacencyMatrix(data):
-    k = 4
+    k = 33
     n = len(data)
     dist_matrix = getDistanceMatrix(data)
     W = np.zeros((n, n))
@@ -76,6 +76,7 @@ def plotRes(data, clusterResult, clusterNum):
                 x1.append(data[j, 0])
                 y1.append(data[j, 1])
         plt.scatter(x1, y1, c=color, marker='+')
+    plt.title("Algorithms3")
     plt.show()
 
 
@@ -85,13 +86,14 @@ def NSCByNg(data, k):
     L = getLaplacianMatrix(D, W)
     eigvec = getEigen(L, D, k)
 
-    # tij = uij / (∑ku2ik)    1 / 2
+    # tij = uij / (∑ku2ik)1 / 2
     rows = eigvec.shape[0]
     columns = eigvec.shape[1]
     T = np.zeros((rows, columns))
     for i in range(rows):
         for j in range(columns):
             T[i][j] = eigvec[i][j] / np.sqrt(np.sum(eigvec[i] ** 2))
+
     clf = KMeans(n_clusters=k)
     s = clf.fit(T)
     label = s.labels_
@@ -103,6 +105,7 @@ filename = 'Aggregation_cluster=7.txt'
 data = np.loadtxt(filename, delimiter='\t')
 data = data[0:-1]  # 除了最后一列 最后一列为标签列
 data = np.array(data)
+
 label = NSCByNg(data, k)
 plotRes(data, label, k)
 

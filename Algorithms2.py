@@ -73,6 +73,7 @@ def plotRes(data, clusterResult, clusterNum):
                 x1.append(data[j, 0])
                 y1.append(data[j, 1])
         plt.scatter(x1, y1, c=color, marker='+')
+    plt.title("Algorithms2")
     plt.show()
 
 
