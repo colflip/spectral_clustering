@@ -6,31 +6,16 @@
 # @Software: PyCharm
 
 # ---------------------------------------------
-# # Algorithms2：Normalized spectral clustering according toShi and Malik(2000)
+# # Algorithms3：Normalized spectral clustering according toShi and Malik(2000)
 # Lsym:=D−1/2LD−1/2=I−D−1/2WD−1/2
 # Lrw:=D−1L=I−D−1W
 # ---------------------------------------------
 
 import matplotlib.pyplot as plt
 import numpy as np
-from sklearn import metrics
-from sklearn.cluster import KMeans
-# !/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time: 2021/3/13 0013 23:21
-# @Author&Email: COLFLIP&colflip@163.com
-# @File: Algorithms2.py
-# @Software: PyCharm
-
-# ---------------------------------------------
-# # Algorithms2：Normalized spectral clustering according toNg et al.(2002)
-# generalized eigenproblem Lu=λDu
-# ---------------------------------------------
-import matplotlib.pyplot as plt
-import numpy as np
-from sklearn import metrics
-from sklearn.cluster import KMeans
 from scipy.linalg import fractional_matrix_power
+from sklearn import metrics
+from sklearn.cluster import KMeans
 
 
 def getDistanceMatrix(data):

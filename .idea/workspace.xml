@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8492572a-15b5-4289-88c0-8e55f1ee8375" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/spectralClustering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spectralClustering.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
