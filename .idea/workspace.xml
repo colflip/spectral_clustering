@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8492572a-15b5-4289-88c0-8e55f1ee8375" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/tempReport" />
   </component>
   <component name="RunManager" selected="Python.Algorithms3">
     <configuration name="Algorithms1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -141,21 +139,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="419" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.65.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615726342761" />
-    <state width="1899" height="180" key="GridCell.Tab.0.bottom" timestamp="1615727846023">
+    <state x="744" y="296" key="FileChooserDialogImpl" timestamp="1615731094554">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.bottom/-1920.65.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615727846023" />
-    <state width="1899" height="180" key="GridCell.Tab.0.center" timestamp="1615727846023">
+    <state x="744" y="296" key="FileChooserDialogImpl/-1920.65.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615731094554" />
+    <state width="1899" height="180" key="GridCell.Tab.0.bottom" timestamp="1615731095705">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.center/-1920.65.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615727846023" />
-    <state width="1899" height="180" key="GridCell.Tab.0.left" timestamp="1615727846023">
+    <state width="1899" height="180" key="GridCell.Tab.0.bottom/-1920.65.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615731095705" />
+    <state width="1899" height="180" key="GridCell.Tab.0.center" timestamp="1615731095705">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.left/-1920.65.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615727846023" />
-    <state width="1899" height="180" key="GridCell.Tab.0.right" timestamp="1615727846023">
+    <state width="1899" height="180" key="GridCell.Tab.0.center/-1920.65.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615731095705" />
+    <state width="1899" height="180" key="GridCell.Tab.0.left" timestamp="1615731095705">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.right/-1920.65.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615727846023" />
+    <state width="1899" height="180" key="GridCell.Tab.0.left/-1920.65.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615731095705" />
+    <state width="1899" height="180" key="GridCell.Tab.0.right" timestamp="1615731095705">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="180" key="GridCell.Tab.0.right/-1920.65.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1615731095705" />
   </component>
 </project>
